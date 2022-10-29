@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import IndexApp from "./IndexApp.jsx"
+import IndexApp from "./IndexApp"
 
 
 
