@@ -1,6 +1,7 @@
-import Contador from "./Contador/Contador";
+import Contador from "./components/Contador/Contador";
 import "./IndexApp.css";
-import Saludo from "./Saludo/Saludo";
+import Saludo from "./components/Saludo/Saludo";
+import NavBar from "./components/NavBar/NavBar";
 
 //este es nuestro primer componente
 const IndexApp = () => {
@@ -12,8 +13,8 @@ const IndexApp = () => {
       <p>Mision Tic 2022</p>
       <p>Esto es un Fragmento</p>
       <Saludo nombre="Pepe" apellido="Cortisona" grupo={ 7 } /> */}
-
-      <Contador value={ 0 } />
+      <NavBar />
+      <Contador value={0} />
     </>
   );
 };
