@@ -31,10 +31,13 @@ const Contador = ( { value } ) => {
         <>
             <h1>Contador</h1>
             <p> { count } </p>
+
+            {/* extraccion de un elemento button a un componente */}
             <Button title="+ 1" handleFunction= { handleAddClick } />
             <Button title="- 1" handleFunction= { handleResta } />
             <Button title="Reset" handleFunction = { handleReset } />
 
+            {/* declaracion de los elementos button en jsx */}
             {/* <button type="button" name="add" onClick = { handleAddClick }>+ 1</button> */}
             {/* <button type="button" name="resta" onClick = { handleResta }>- 1</button> */}
             {/* <button type="button" name="reset" onClick = { handleReset }>Reset</button> */}
