@@ -36,6 +36,8 @@ const Contador = ( { value } ) => {
             <Button title="+ 1" handleFunction= { handleAddClick } />
             <Button title="- 1" handleFunction= { handleResta } />
             <Button title="Reset" handleFunction = { handleReset } />
+            <br />
+            
 
             {/* declaracion de los elementos button en jsx */}
             {/* <button type="button" name="add" onClick = { handleAddClick }>+ 1</button> */}

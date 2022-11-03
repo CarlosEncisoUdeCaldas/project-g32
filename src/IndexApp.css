@@ -1,16 +1,25 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    background-color: rgb(46, 40, 40);
-    color: whitesmoke;
+    /* font-size: 25px; */
+    background-color: rgb(248, 245, 245);
+    color: rgb(6, 6, 6);
     text-align: center;
 }
 
 .saludo:hover {
     color: aqua;  
 }
+
 button {
     font-size: 25px;
     padding: 5px;
     margin: 5px;
+}
+
+i{
+    padding-right: 5px;
+}
+
+main {
+    padding-top: 20px;
 }
