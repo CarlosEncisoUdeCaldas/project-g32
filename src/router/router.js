@@ -7,6 +7,8 @@ import IndexApp from '../IndexApp'
 import Home from '../Home'
 import Contador from "../components/Contador/Contador";
 import Saludo from "../components/Saludo/Saludo";
+import RegisterForm from "../components/RegisterForm/RegisterForm";
+import LoginForm from "../components/LoginForm/LoginForm";
 
 export const router = createBrowserRouter(
     createRoutesFromElements( [
@@ -14,6 +16,8 @@ export const router = createBrowserRouter(
             <Route index element={ <Home /> } />,
             <Route path="/contador" element={ <Contador /> } />,
             <Route path="/saludo" element={ <Saludo /> } />,
+            <Route path="/register" element={ <RegisterForm /> } />,
+            <Route path="/login" element={ <LoginForm /> } />,
         </Route>
         ]
     )
